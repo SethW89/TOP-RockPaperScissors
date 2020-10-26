@@ -1,0 +1,43 @@
+
+.content {
+    display: flex;
+    flex-direction: row;
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+.selection {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 2px;
+    flex-grow: 0;
+    flex-basis: 3em;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(223, 194, 184);
+}
+
+.selection:hover {
+    background-color: yellow;
+    box-shadow: saddlebrown;
+}
+.contentResults {
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    align-items: center;
+    justify-content: center;
+}
+.result {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 5px;
+    flex-grow: 1;
+    flex-basis: 3em;
+    text-align: center;
+}
